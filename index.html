@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário sobre perguntas ambientais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Questionário sobre perguntas ambientais "Mudanças Climaticas"</h1>
+        
+        <form id="quizForm">
+            <div class="question">
+                <p>1. Quais são os principais gases do efeito estufa que são responsáveis pelo aquecimento global?</p>
+                <ul class="options">
+                    <li><input type="radio" name="q1" value="1">Dióxo de carbono "CO2"</li>
+                    <li><input type="radio" name="q1" value="2">Metano "CH4"</li>
+                    <li><input type="radio" name="q1" value="3">Óxido nitroso "N2O"</li>
+                    <li><input type="radio" name="q1" value="4">Todos os anteriores</li>
+                    <li><input type="radio" name="q1" value="5">Nenhuma das opções</li>
+                </ul>
+            </div>
+
+            <div class="question">
+                <p>2. Como o aumento da temperatura global pode afetar os padrões climaticos regionais?</p>
+                <ul class="options">
+                    <li><input type="radio" name="q2" value="1">Mais eventos climáticos extremos, como tempestades e secas</li>
+                    <li><input type="radio" name="q2" value="2">Mudanças na distribuição de chuvas e neve</li>
+                    <li><input type="radio" name="q2" value="3">Elevação do nivel do mar</li>
+                    <li><input type="radio" name="q2" value="4">Todas as anteriores</li>
+                    <li><input type="radio" name="q2" value="5">Nenhuma das opções</li>
+                </ul>
+            </div>
+
+            <div class="question">
+                <p>3. Quais são algumas das consequências das mudanças climaticas para a biodiversidade?</p>
+                <ul class="options">
+                    <li><input type="radio" name="q3" value="1">Extinção de expécies</li>
+                    <li><input type="radio" name="q3" value="2">Alterações nos padrões de migração de animais</li>
+                    <li><input type="radio" name="q3" value="3">Perda de habitats devido ao aumento do derretimento do gelo</li>
+                    <li><input type="radio" name="q3" value="4">Todas as anteriores</li>
+                    <li><input type="radio" name="q3" value="5">Nenhuma das opções</li>
+                </ul>
+            </div>
+
+            <button type="button" onclick="marcarRespostas()">Marcar Respostas</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
